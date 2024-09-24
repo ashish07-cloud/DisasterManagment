@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "node:path";
@@ -6,7 +7,6 @@ import path from "node:path";
 export default defineConfig({
   resolve: {
     alias: {
-      // eslint-disable-next-line no-undef
       "@assets": path.resolve(__dirname, "src/assets"),
     },
   },
