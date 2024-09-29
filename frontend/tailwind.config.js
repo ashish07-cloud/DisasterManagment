@@ -10,10 +10,15 @@ module.exports = {
         marquee: 'marquee 28s linear infinite',
       },
       keyframes: {
+        slideUp: {
+          '0%': { height: 0 },
+          '100%': { height: '280px' },
+        },
         marquee: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        
         colors: {
           'dark-gray': '#545454',
         },
@@ -21,5 +26,5 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [require('daisyui'),],
 }
