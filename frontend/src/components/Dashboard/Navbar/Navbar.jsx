@@ -25,14 +25,14 @@ const Navbar = () => {
     <div
       className="flex flex-row mb-2"
       style={{
-        backgroundImage: "linear-gradient(to right, #EBE30B, #D76500)",
+        backgroundImage: "linear-gradient(to right, #040404, #545454, #84512D, #AD4F0B, #FF7800)",
         backgroundSize: "100% 100%",
         height: "62px" /* adjust the height as needed */,
       }}
     >
-      <img className="w-15px h-20px" src={assets.RA_logo} alt="logo" />
+      <img className="w-15px h-20px" src={assets.RA_logo_new} alt="logo" />
 
-      <h1 className="text-4xl mx-auto font-bold font-serif flex items-center justify-center h-full">
+      <h1 className="text-4xl mx-auto font-bold font-serif flex items-center justify-center h-full text-white">
         Rapid Alert
       </h1>
 
