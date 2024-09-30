@@ -24,7 +24,7 @@ const Login = () => {
         >
           <div className="flex justify-start pt-0 pl-0">
             <img
-              src={assets.RA_logo}
+              src={assets.RA_logo_new}
               alt="Logo"
               className="h-20 w-31 saturate-250 contrast-250"
             />
